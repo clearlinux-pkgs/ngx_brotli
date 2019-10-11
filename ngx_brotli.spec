@@ -4,7 +4,7 @@
 #
 Name     : ngx_brotli
 Version  : e505dce68acc190cc5a1e780a3b0275e39f160ca
-Release  : 1
+Release  : 2
 URL      : https://github.com/google/ngx_brotli/archive/e505dce68acc190cc5a1e780a3b0275e39f160ca.tar.gz
 Source0  : https://github.com/google/ngx_brotli/archive/e505dce68acc190cc5a1e780a3b0275e39f160ca.tar.gz
 Summary  : No detailed summary available
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : BSD-2-Clause
 Requires: ngx_brotli-lib = %{version}-%{release}
 BuildRequires : buildreq-nginx
+BuildRequires : openssl-dev
 BuildRequires : pkgconfig(libbrotlicommon)
 
 %description
