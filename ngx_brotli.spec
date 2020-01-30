@@ -4,7 +4,7 @@
 #
 Name     : ngx_brotli
 Version  : e505dce68acc190cc5a1e780a3b0275e39f160ca
-Release  : 5
+Release  : 6
 URL      : https://github.com/google/ngx_brotli/archive/e505dce68acc190cc5a1e780a3b0275e39f160ca.tar.gz
 Source0  : https://github.com/google/ngx_brotli/archive/e505dce68acc190cc5a1e780a3b0275e39f160ca.tar.gz
 Summary  : No detailed summary available
@@ -33,6 +33,7 @@ lib components for the ngx_brotli package.
 
 %prep
 %setup -q -n ngx_brotli-e505dce68acc190cc5a1e780a3b0275e39f160ca
+cd %{_builddir}/ngx_brotli-e505dce68acc190cc5a1e780a3b0275e39f160ca
 
 %build
 export http_proxy=http://127.0.0.1:9/
