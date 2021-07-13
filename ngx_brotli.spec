@@ -4,7 +4,7 @@
 #
 Name     : ngx_brotli
 Version  : e505dce68acc190cc5a1e780a3b0275e39f160ca
-Release  : 18
+Release  : 19
 URL      : https://github.com/google/ngx_brotli/archive/e505dce68acc190cc5a1e780a3b0275e39f160ca.tar.gz
 Source0  : https://github.com/google/ngx_brotli/archive/e505dce68acc190cc5a1e780a3b0275e39f160ca.tar.gz
 Summary  : No detailed summary available
